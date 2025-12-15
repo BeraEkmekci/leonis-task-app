@@ -1,0 +1,18 @@
+# Python gereksiz dosyalari
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Flet build dosyalari 
+build/
+dist/
+
+# Editor ayarlari
+.vscode/
+.idea/
+
+# GUVENLIK 
+.env
+venv/
+env/
