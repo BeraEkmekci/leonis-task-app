@@ -78,5 +78,27 @@ Enter the flow state with a built-in **Pomodoro Timer**. Features a "Hyper-Focus
     flet run main.py
     ```
 
+
+
+---
+
+## 🐳 Docker Deployment Guide
+
+To run **LEONIS** in a Docker container, follow these steps:
+
+### 1. Build the Docker Image
+Run this command in your project terminal to create the container image:
+```bash
+docker build -t leonis-app .
+```
+
+### 2. Run the Docker Container
+Run this command to start the container:
+```bash
+docker run -p 8080:8080 -e GOOGLE_API_KEY="YOUR_ACTUAL_API_KEY_HERE" leonis-app
+
+### 3. Access the App
+Open your web browser and navigate to `http://localhost:8080` to access the app.
+
 ---
 *Developed by Mustafa Bera Ekmekçi via Google Antigravity.*
